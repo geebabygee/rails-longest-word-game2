@@ -22,8 +22,5 @@ class GamesController < ApplicationController
     else
       @score = 0
     end
-
   end
-
-
 end
