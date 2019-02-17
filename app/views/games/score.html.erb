@@ -6,7 +6,7 @@
     <p>Sorry but <strong><%= @word %></strong> does not seem to be a valid English word...</p>
   <% end %>
 <% else %>
-  <p>Sorry but <strong><%= @word %></strong> can't be built out of <%= @letters.join(", ") %></p>
+  <p>Sorry but <strong><%= @word %></strong> can't be built out of <%= @letters%></p>
 <% end %>
 <p><em>Grand Total: <%= @score %></em></p>
 <%= link_to "Play again", new_path %>
